@@ -1,4 +1,4 @@
-A fully scratch-programmed Online Shopping website project made with Python , Django in Persian Language.
+A fully programmed Online Shopping website project made with Python , Django in Persian Language.
 ------------------------------------------------------------------------------------------------
 Front-End : this part of the project it's programmed with HTML,CSS,JavaScript,Bootstrap and tailwind
 
