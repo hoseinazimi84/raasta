@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رآستا</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/dana" rel="stylesheet">
+    <!-- Your custom CSS (if any) -->
+    <!-- <link rel="stylesheet" href="path/to/your/custom.css"> -->
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'dana', sans-serif;
+        }
+        [lang="fa"] {
+            font-family: 'dana', sans-serif;
+        }
+        .container-fluid{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            background-image: url('{% static "images/header_1.jpg" %}');
+            height: 650px;
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-attachment:local;
+        }
+        .navbar div{
+            margin-top: 15px;
+            color: #373d3f;
+            font-weight: bolder;
+            font-size: larger;
+            text-decoration: none;
+        }
+        .navbar div a:hover{
+            color: whitesmoke !important;
+        }
+        .search-box {
+            position: absolute;
+            top: -10px;
+            left: 40%;
+            width: 20%;
+            height: 35px;
+        }
+        .rounded-rectangle {
+            height: 90%;
+            border-radius: 50px;
+            background-color: #f0f0f0; /* Grey background color */
+            border: 0px solid #e5e5e5;
+        }
+        .search-input {
+            width: 100%;
+            border: none;
+            position: absolute;
+            top: 20px;
+            font-size: medium;
+            text-align: center;
+            background-color: transparent;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="head">
+            <div class="d-flex justify-content-between navbar">
+                <div></div>
+                <div>
+                    <a class="text-reset text-decoration-none" href="#">خانه</a>
+                </div>
+                <div></div>
+                <div>
+                    <a class="text-reset text-decoration-none" href="#">محصولات</a>
+                </div>
+                <div></div>
+                <div></div>
+                <div class="mb-2">
+                    <div class="search-box">
+                        <div class="rounded-rectangle">
+                            <input type="text" class="search-input" placeholder="جستجو">
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="me-5">
+                    <a class="text-reset text-decoration-none" href="#">حساب کاربری</a>
+                </div>
+                <div></div>
+                <div>
+                    <a class="text-reset text-decoration-none" href="#">ارتباط با ما</a>
+                </div>
+                <div></div>
+            </div>
+            <div class="d-flex" style="justify-content: space-between;">
+                <div class="d-none d-lg-block w-25 m-4" style="position: absolute; top: 100px;">
+                    <p class="fs-3">“با ما به دنیای مد خوش آمدید! از آخرین مدل‌های پوشاک تا لباس‌های رسمی و راحتی، مجموعه‌ای از بهترین انتخاب‌ها در انتظار شماست<br> از طراحی‌های منحصر به فرد تا کیفیت بی‌نظیر، ما به شما اطمینان می‌دهیم که با خرید از ما، بهترین تجربه را خواهید داشت.”                    </p>
+                </div>
+                <div class="d-none d-lg-block w-25 m-4" style="position: absolute; top: 100px; direction: ltr;">
+                </div>
+            </div>
+            <!--HEYYYYYYYYYYYYYYYY-->
+            <!-- <div>
+                <img src="{% static 'images/logo_name_1.png' %}" height="100px" width="150px">
+            </div> -->
+            <!--HEYYYYYYYYYYYYYYYY-->
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
